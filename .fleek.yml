@@ -1,0 +1,79 @@
+aliases:
+    fleeks: cd ~/.local/share/fleek
+bling: default
+blocklist: []
+byo_git: false
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+overlays:
+    thorium:
+        follow: true
+        url: github:almahdi/nix-thorium
+packages:
+    - helix
+    - aria2
+    - nodejs_20
+    - neovim
+    - ffmpeg
+    - yt-dlp
+    - gallery-dl
+    - imagemagick
+    - opusTools
+    - opustags
+    - fd
+    - fzf
+    - unar
+    - unrar
+    - unzip
+    - zip
+    - p7zip
+    - libgcc
+    - stdenvNoCC
+    - binutils
+    - flutterPackages.stable
+    - scrcpy
+    - mangal
+    - imgbrd-grabber
+    - fish
+    - android-tools
+    - android-studio
+    - btop
+    - mpv-unwrapped
+    - vlc
+    - firefox
+    - koreader
+    - discord
+    - obs-studio
+    - obs-studio-plugins.obs-vaapi
+    - obs-studio-plugins.obs-vkcapture
+    - obs-studio-plugins.obs-gstreamer
+    - calibre
+    - keepassxc
+    - foliate
+    - handbrake
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: bash
+systems:
+    - arch: x86_64
+      hostname: fedora
+      os: linux
+      username: noir
+track: nixos-unstable
+unfree: true
+users:
+    - email: ragasubekti@gmail.com
+      name: Raga Subekti
+      ssh_private_key_file: ~/.ssh/id_rsa
+      ssh_public_key_file: ~/.ssh/id_rsa.pub
+      username: noir
